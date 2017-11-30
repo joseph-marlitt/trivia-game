@@ -14,30 +14,34 @@
 		<button id="start">Start!</button>
 		<div id="row">
 			<div id="quiz">
-				Question 1: <span name="question1"><br>
-					Right<input type="radio" name="answers" id="correct" value="Right">
-	  				Wrong<input type="radio" name="answers" id="incorrect" value="Wrong">
-	  				Wrong<input type="radio" name="answers" id="incorrect" value="Wrong">
-	  				Wrong<input type="radio" name="answers" id="incorrect" value="Wrong">
-				</span>
-				Question 2:<span name="question2"><br>
-					Right<input type="radio" name="answers" id="correct" value="Right">
-	  				Wrong<input type="radio" name="answers" id="incorrect" value="Wrong">
-	  				Wrong<input type="radio" name="answers" id="incorrect" value="Wrong">
-	  				Wrong<input type="radio" name="answers" id="incorrect" value="Wrong">
-				</span>
-				Question 3:<span name="question3"><br>
-					Right<input type="radio" name="answers" id="correct" value="Right">
-	  				Wrong<input type="radio" name="answers" id="incorrect" value="Wrong">
-	  				Wrong<input type="radio" name="answers" id="incorrect" value="Wrong">
-	  				Wrong<input type="radio" name="answers" id="incorrect" value="Wrong">
-				</span>
-				Question 4:<span name="question4"><br>
-					Right<input type="radio" name="answers" id="correct" value="Right">
-	  				Wrong<input type="radio" name="answers" id="incorrect" value="Wrong">
-	  				Wrong<input type="radio" name="answers" id="incorrect" value="Wrong">
-	  				Wrong<input type="radio" name="answers" id="incorrect" value="Wrong">
-				</span>
+				<form name="question1">Who is the all-time leading scorer for Argentina?<br>
+					Messi <input type="radio" name="answers" id="correct" >
+	  				Maradona <input type="radio" name="answers" id="incorrect">
+	  				Higuain <input type="radio" name="answers" id="incorrect">
+	  				Pele <input type="radio" name="answers" id="incorrect">
+				</form>
+				<br>
+				<form name="question2">What MLS team's mascot is the Goat?<br>
+					Chivas USA <input type="radio" name="answers" id="correct">
+	  				Real Salt Lake <input type="radio" name="answers" id="incorrect">
+	  				New York City FC <input type="radio" name="answers" id="incorrect">
+	  				Seattle <input type="radio" name="answers" id="incorrect">
+				</form>
+				<br>
+				Question 3:<form name="question3">
+					Right<input type="radio" name="answers" id="incorrect">
+	  				Wrong<input type="radio" name="answers" id="incorrect">
+	  				Wrong<input type="radio" name="answers" id="correct">
+	  				Wrong<input type="radio" name="answers" id="incorrect">
+				</form>
+				<br>
+				Question 4:<form name="question4">
+					Right<input type="radio" name="answers" id="incorrect">
+	  				Wrong<input type="radio" name="answers" id="incorrect">
+	  				Wrong<input type="radio" name="answers" id="correct">
+	  				Wrong<input type="radio" name="answers" id="incorrect">
+				</form>
+				<br>
 			</div>
 			<div id="results"></div>
 		</div>
